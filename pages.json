@@ -3,7 +3,24 @@
         {
             "path": "pages/index/index",
             "style": {
-                "navigationBarTitleText": "uni-app"
+                "navigationBarTitleText": "百年奥莱",
+                "backgroundColorTop": "#ffffff",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [{
+                                "float": "left",
+                                "fontSrc": "./static/iconfont.ttf",
+                                "text": "\ue62f"
+                            },
+                            {
+                                "float": "right",
+                                "fontSrc": "./static/iconfont.ttf",
+                                "text": "\ue86f"
+                            }
+                        ]
+                    }
+                }
             }
         }, {
             "path": "pages/list/list",
@@ -30,7 +47,7 @@
     ],
     "globalStyle": {
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "uni-app",
+        "navigationBarTitleText": "百年奥莱",
         "navigationBarBackgroundColor": "#F8F8F8",
         "backgroundColor": "#F8F8F8"
 
